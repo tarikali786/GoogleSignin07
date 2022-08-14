@@ -24,8 +24,8 @@ SECRET_KEY = 'django-insecure-*&3p=w$ih%pg-##b8!_zsf*rb5ude#*nypuzs&k)fz(14)(jy6
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
+
 SITE_ID = 2
 LOGIN_REDIRECT_URL = "/"
 
@@ -89,6 +89,13 @@ TEMPLATES = [
         },
     },
 ]
+
+# ALLOWED_HOSTS = []
+# SITE_ID = 3
+
+# LOGIN_REDIRECT_URL = '/'
+# LOGOUT_REDIRECT_URL = '/'
+
 
 WSGI_APPLICATION = 'GoogleSignin.wsgi.application'
 
